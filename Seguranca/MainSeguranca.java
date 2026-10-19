@@ -15,7 +15,7 @@ public class MainSeguranca {
 
             System.out.print("Digite a senha: ");
             String senha = sc.nextLine();
-cmd
+
             if (sistema.login(usuario, senha)) {
                 System.out.println("Bem-vindo ao sistema!");
             } else {
